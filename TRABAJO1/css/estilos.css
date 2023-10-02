@@ -1,0 +1,57 @@
+html {
+    background-image: url(images.jpg);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body>header {
+
+    background-image: url(images\ \(4\).jpg);
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: initial;
+}
+
+body>header>div {
+    display: inline-block;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    right: 10px;
+    z-index: 2;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 15px;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: beige;
+    background-image: url(images\ \(2\).jpg)
+}
+
+body {
+    color: white;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(3, 3, 3);
+    padding-top: 12px;
+    text-align: end;
+}
+
