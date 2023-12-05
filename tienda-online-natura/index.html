@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <script src="scrip.js" async></script>
+  <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+  <title>TIENDA ONLINE NATURA</title>
+</head>
+
+<body>
+  <header>
+    <img src="portada.jpg" class="img-fluid" width="2000" height="400">
+    <section class="p-3 mb-2 bg-danger text-white " id="inicio">
+      <h2>Bienvenido a Natura</h2>
+      <p>Esta navidad regala algo especial, regala Natura.</p>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="LOGOOOOOOOOOO.png" alt="" width="44" height="44"
+            class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Labiales</a></li>
+                <li><a class="dropdown-item" href="#">Sombras para ojos</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">cremas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="Buscar Producto" placeholder="Buscar Producto"
+              aria-label="Buscar Producto">
+            <button type="button" class="btn btn-danger">Buscar</button>
+          </form>
+          <li class="nav-item">
+            <a class="nav-item" href=""><a class="navbar-brand" href=""><img src="campanna.jpg" alt="" width="40"
+                  height="30" class="d-inline-block align-text-top">
+              </a>
+          <li class="nav-item">
+            <a class="nav-item" href=""><a class="navbar-brand" href=""><img
+                  src="183231731-conjunto-de-iconos-de-compras-signo-y-símbolo-del-carrito-de-compras-icono-de-carro.jpg"
+                  alt="" width="40" height="30" class="d-inline-block align-text-top">
+              </a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="PRINCIPALCARR.jpg" class="d-block w-100" height="300" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="otrologo.jpg" class="d-block w-100" height="300" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="CarruSell.jpg" class="d-block w-100" height="300" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <header class="ofertas">
+      <h1>OFERTAS ESPECIALES NAVIDEÑAS</h1>
+    </header>
+
+
+    <section class="contenedor">
+      <div class="contenedor-items">
+        <div class="item">
+          <span class="titulo-item">Labial rojo</span>
+          <img src="producto-1 (1).jpeg" alt="" class="img-item">
+          <span class="precio-item">$5.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Labial rosa matte</span>
+          <img src="producto2 (2).jpeg" alt="" class="img-item">
+          <span class="precio-item">$5.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo </span>
+          <img src="produc10.jpeg" alt="" class="img-item">
+          <span class="precio-item">$12.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item"> Paleta de sombras Night</span>
+          <img src="produc9.jpeg" alt="" class="img-item">
+          <span class="precio-item">$12.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            Golden
+          </span>
+          <img src="produc7.jpeg" alt="" class="img-item">
+          <span class="precio-item">$18000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Labial nude Glam</span>
+          <img src="produc3.jpeg" alt="" class="img-item">
+          <span class="precio-item">$8.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Labial violet</span>
+          <img src="produc5.jpeg" alt="" class="img-item">
+          <span class="precio-item">$5.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Labial marron nud </span>
+          <img src="produc4.jpeg" alt="" class="img-item">
+          <span class="precio-item">$6.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Labial nude</span>
+          <img src="produc6.jpeg" alt="" class="img-item">
+          <span class="precio-item">$6.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            Gol </span>
+          <img src="produc8.jpeg" alt="" class="img-item">
+          <span class="precio-item">$12.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Crema corporal </span>
+          <img src="cremav.jpeg" alt="" class="img-item">
+          <span class="precio-item">$7.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Crema corporal olor a frutos rojos</span>
+          <img src="cremafr.jpeg" alt="" class="img-item">
+          <span class="precio-item">$6.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo </span>
+          <img src="produc10.jpeg" alt="" class="img-item">
+          <span class="precio-item">$18.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            ROSSE</span>
+          <img src="produc11.jpeg" alt="" class="img-item">
+          <span class="precio-item">$16.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            Red </span>
+          <img src="produc12 (2).jpeg" alt="" class="img-item">
+          <span class="precio-item">$42.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            Green</span>
+          <img src="produc13.jpeg" alt="" class="img-item">
+          <span class="precio-item">$42.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo
+            Verd </span>
+          <img src="produc14.jpeg" alt="" class="img-item">
+          <span class="precio-item">$42.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Paleta de sombras de ojo </span>
+          <img src="produc15.jpeg" alt="" class="img-item">
+          <span class="precio-item">$42.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Perfume eucalipto</span>
+          <img src="perfume1.jpeg" alt="" class="img-item">
+          <span class="precio-item">15.000</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Perfume frutilla</span>
+          <img src="perfume2.jpeg" alt="" class="img-item">
+          <span class="precio-item">$15.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Perfume golden
+            Especial navidad
+          </span>
+          <img src="perfume3.jpeg" alt="" class="img-item">
+          <span class="precio-item">$12.800</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+      </div>
+      <div class="carrito" id="carrito">
+        <div class="header-carrito">
+          <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">
+
+        </div>
+        <div class="carrito-total">
+          <div class="fila">
+            <strong>Tu Total</strong>
+            <span class="carrito-precio-total">
+              $120.000,00
+            </span>
+          </div>
+          <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="formu">
+      <form action="#" method="POST">
+        <h1>¡Regístrate y Obtén Hasta un 20% OFF!</h1>
+        <label for="email">Nombre:</label>
+        <input type="email" id="email" name="email" required placeholder="Tu Nombre">
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+
+        <button type="button" class="btn btn-light">¡Regístrate!</button>
+
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-links">
+            <h4>Compañia</h4>
+            <ul>
+              <li> <a href="#">Nosotros</a></li>
+              <li><a href="#">Bien estar bien</a></li>
+              <li><a href="#">Sustentabilidad</a></li>
+              <li><a href="#">© 2023 TIENDA ONLINE NATURA COSMÉTICOS.</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Ayuda</h4>
+            <ul>
+              <li> <a href="#">Encontrá Natura</a></li>
+              <li><a href="#">Ayuda y contacto</a></li>
+              <li><a href="#">Defensa de las y los consumidores, para reclamos ingrese aquí</a></li>
+              <li> <a href="#">Defensa de las y los consumidores, alerta de productos ingrese aquí</a></li>
+              <li><a href="#">Alertas y retiro de productos</a></li>
+            </ul>
+
+          </div>
+          <div class="footer-links">
+            <h4>Soporte</h4>
+            <ul>
+              <li> <a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Políticas de privacidad</a></li>
+              <li><a href="#">Política de cookies</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Nuestras Redes</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
